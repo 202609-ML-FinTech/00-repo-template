@@ -16,7 +16,7 @@ replicating-a-paper/
     data/rawdata/             the data exactly as you downloaded it — never edit these files
     data/processed-data/      what your code produces from rawdata
     coding/                   notebooks and scripts
-    _snapshots/               a dated PDF of your report at each milestone
+    _snapshots/               the paper you are replicating, and its slides
 ```
 
 Create the next dated folder yourself when work is assigned. Keep the names as
@@ -43,9 +43,13 @@ saved on your laptop but not pushed has not been submitted.
 | R3 | Benchmark model and experiment design | Mon **11/09**, 23:59 |
 | R4 | Empirical analysis and conclusion | Mon **11/30**, 23:59 |
 
-Each milestone is presented in class and written up in your report. Keep a PDF of
-the report as it stood at each milestone in `_snapshots/`, named `R1.pdf`, `R2.pdf`
-and so on, so your progress is visible.
+Each milestone is presented in class and written up in your report.
+
+Put the paper you are replicating in `_snapshots/`, together with any slides or
+presentation the authors released for it. Keep them in the repository rather than
+only on your laptop: the paper is the specification you are working against, and
+both you and the teaching team need to be able to check your results against it.
+These are your source material, not your own output.
 
 ---
 
